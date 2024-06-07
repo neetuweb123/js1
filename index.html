@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="test">Hello switch</h2>
+    <script>
+        let day;
+         switch (new Date().getDay()) {
+            case 0:
+                document.getElementById("test").style.color ="blue";
+                break;
+
+                case 1:
+                document.getElementById("test").style.color ="pink";
+                break;
+
+                case 2:
+                document.getElementById("test").style.color ="aqua";
+                break;
+
+                case 4:
+                document.getElementById("test").style.color ="green";
+                break;
+
+                case 5:
+                document.getElementById("test").style.color ="yellow";
+                break;
+
+                case 6:
+                document.getElementById("test").style.color ="red";
+                break;
+
+                default:
+                document.getElementById("test").style.color ="orange";
+                break;
+         }
+    </script>
+</body>
+</html>
